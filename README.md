@@ -2,10 +2,14 @@
 
 Detecting and recognizing traffic signs in images and video streams. It uses computer vision and machine learning techniques to identify and classify various traffic signs, such as stop signs, yield signs, and speed limit signs.
 
-## Demo
-<a href="https://www.youtube.com/watch?v=LXpScZoTHu0
-" target="_blank"><img src="http://img.youtube.com/vi/LXpScZoTHu0/0.jpg" 
-alt="IMAGE ALT TEXT HERE" width="480" height="360" border="10"/></a>
+
+https://user-images.githubusercontent.com/29041010/216681247-8f8a9ca0-2666-4ab4-bedb-c448c2245e51.mp4
+
+NOTE: The left slider that show numbers is part of the original video our model draw the detection bounres and recognize the sign
+
+
+
+
 ## Requirements
 - Python 3.7 or later
 - OpenCV
