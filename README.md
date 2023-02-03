@@ -5,7 +5,10 @@ Detecting and recognizing traffic signs in images and video streams. It uses com
 ## Demo
 <a href="https://www.youtube.com/watch?v=ITL-rYTVxTg
 " target="_blank"><img src="http://img.youtube.com/vi/ITL-rYTVxTg/0.jpg" 
-alt="IMAGE ALT TEXT HERE" width="480" height="360" border="10" /></a>
+alt="IMAGE ALT TEXT HERE" width="480" height="360" border="10" auto-play="on"/></a>
+<video controls autoplay>
+  <source src="[https://www.youtube.com/watch?v=ITL-rYTVxTg](https://www.youtube.com/watch?v=ITL-rYTVxTg)" type="video/ogg">
+</video>
 ## Requirements
 - Python 3.7 or later
 - OpenCV
