@@ -37,7 +37,7 @@ use Classifier.ipynb in the colab folder to train and generate the weights file
 The repository includes YOLO for detecting traffic signs and a pure trained model for the recognizing. 
 
 ## conclusion 
-  - the recognition model achieved 99.3% using Inception architecture With Data Augmentation and trained it for 200 epoch
+  - the recognition model achieved 99.2% using Inception architecture With Data Augmentation and trained it for 200 epoch
   - <p>the detection model achieved 91%</p>
     <img src="https://user-images.githubusercontent.com/29041010/216661055-047af709-9fbb-4914-b8ab-b37444c1279c.png"  width="400" height="400" />
   - when we run the test video on colab it processing speed was 0.5 Frame/s we used a feature in openCV and the result was 1 Frame/s
