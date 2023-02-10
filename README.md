@@ -19,10 +19,12 @@ NOTE: The left slider that show numbers is part of the original video our model 
 ## Usage
 we used GTSRB & GTSDB datasets for this project
 
-* The classification part :
+* The Recognition Part :
+* This Part is responsible of classifying the signs. First, it cut the input image according to the surrounding box around the traffic sing. Get each sub image from the original image and classify each sign using Convolution layers, Batch Normalization layers and the RELU Notify each Box according to the class with a label (the number of the class which is the type of the traffic sign) The last output is image with all labeled Boxes. In case of videos, we combine all frames with labeled Boxes.
 use Classifier.ipynb in the colab folder to train and generate the weights file
-* The detection part :
-  * For the detector we used YOLOV3 you can change the configuration of the model through the YOLO Model Configuration folder 
+* The Detection Part :
+  * This model is responsible of detecting all the traffic sings in the input image or video through, using the YOLOv3 . The output of this model is bounding boxes      surrounding the sings in the image or the frames of the video  through using techniques of deep learning and probability.
+  * You can change the configuration of the model through the YOLO Model Configuration folder 
   * For preparing the dataset use the data preparation folder
   * use detector.ipynb in the colab folder to train and generate the weights file
 * Merging
